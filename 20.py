@@ -1,7 +1,7 @@
-n1=int(input())
-l=[]
-for i in range(1,6):
-    a=n1*i
-    l.append(str(a))
-j=" ".join(l)
-print(j)
+ap=input()
+ap=int(ap)
+fact=1
+for i in range(1,ap+1):
+    fact=fact*i
+    i=i+1
+print(fact)
